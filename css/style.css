@@ -1,0 +1,72 @@
+.lead{
+  margin-top:5%;
+}
+
+.cardZone{
+  
+  position: relative;
+  font-size: 30pt;
+  text-align: center;
+  margin-top: 5%;
+  height: 400px;
+  background-color: rgba(217, 217, 217,0.5);
+  outline-style: dashed; 
+  outline-color: #333333;
+  outline-offset: -1px;
+  outline width: 2px;
+  opacity: 0.9;
+  
+}
+
+#scoreZone{
+  font-size: 50px;
+  margin-left: 50%;
+}
+
+.card {
+  position: absolute;
+  width: 200px;
+  top: 110px;
+  left: 110px;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  height: 200px;
+}
+
+.cardHead {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #429bf5;
+  color: #fff;
+}
+
+.cardText{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 8;
+}
+
+#cardStick{
+  position: absolute;
+  width: 200px;
+  top: 110px;
+  left: 110px;
+  z-index: 9;
+  background-color: white;
+  outline-style: dashed;
+  outline-width: 3px;
+  outline-offset: 3px;
+  outline-color: #333333;
+  height: 200px;
+}
+
+#foot{
+  margin-top: 5px;
+  margin-left: 15px;
+  color: grey;
+  font-style: italic;
+  
+}
