@@ -1,5 +1,8 @@
 .lead{
+  position: relative;
   margin-top:5%;
+  padding-left: 20px;
+  text-align: right;
 }
 
 .cardZone{
@@ -20,7 +23,7 @@
 
 #scoreZone{
   font-size: 50px;
-  margin-left: 50%;
+  text-align: center;
 }
 
 .card {
